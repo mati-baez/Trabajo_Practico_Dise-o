@@ -1,0 +1,101 @@
+body {
+    font-family: "Arial", sans-serif; 
+    background-color: #e6e9ec; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    max-width: 800px;
+    width: 100%;
+    text-align: left; 
+  }
+  
+  header {
+    background-color: #5c67f2; 
+    padding: 15px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 25px;
+    border-radius: 8px; 
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: separate; 
+    border-spacing: 0; 
+    margin-top: 20px;
+  }
+  
+  thead {
+    background-color: #323b4d; 
+    color: #ffffff;
+  }
+  
+  th,
+  td {
+    padding: 12px; 
+    text-align: left;
+    border-bottom: 2px solid #dee2e6; 
+  }
+  
+  tfoot td {
+    text-align: center;
+    background-color: #f8f9fa; 
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f3f4f6; 
+  }
+  
+  tr:hover {
+    background-color: #e2e6ea; 
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px; 
+    border: 1px solid #bdc3c7;
+    border-radius: 6px; 
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 24px; 
+    border: none;
+    background-color: #5c67f2; 
+    color: #ffffff;
+    border-radius: 6px; 
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s; 
+  }
+  
+  button:hover {
+    background-color: #3b47d0;
+    transform: translateY(-2px); 
+  }
+  
+  #popUp {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+  }
+
+  td.price::before {
+    content: '$';
+    margin-right: 2px; 
+}
+
+  

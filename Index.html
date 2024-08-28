@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP Promesas</title>
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>TRABAJO PRACTICO DISEÑO WEB</header>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nombre del Producto</th>
+            <th>COLOR</th>
+            <th>Precio</th>
+            <th colspan="2"></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot>
+          <tr>
+            <td></td>
+            <td><input id="name" /></td>
+            <td><input id="color" /></td>
+            <td><input id="price" /></td>
+            <td colspan="2"><button onclick="saveObject()">ADD</button></td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <div id="popUp">
+        <table>
+          <tr>
+            <td><label for="id2" style="font-weight: bold">ID</label></td>
+            <td><input name="id2" style="text-align: right" readonly /></td>
+          </tr>
+          <tr>
+            <td>
+              <label for="name2" style="font-weight: bold"
+                >Nombre Del Producto</label
+              >
+            </td>
+            <td><input name="name2" style="text-align: right" /></td>
+          </tr>
+          <tr>
+            <td><label for="color2" style="font-weight: bold">COLOR</label></td>
+            <td><input name="color2" style="text-align: right" /></td>
+          </tr>
+          <tr>
+            <td>
+              <label for="price2" style="font-weight: bold">Precio</label>
+            </td>
+            <td><input name="price2" style="text-align: right" /></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align: center">
+              <button onclick="updateObject()">UPDATE</button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
